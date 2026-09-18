@@ -9,14 +9,14 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD7BL1NzNnlBHUsKjgEdkbIryIIpeRcS8E",
-  authDomain: "seb-s-6bc29.firebaseapp.com",
-  projectId: "seb-s-6bc29",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
   databaseURL:
-    "https://seb-s-6bc29-default-rtdb.asia-southeast1.firebasedatabase.app/",
-  storageBucket: "seb-s-6bc29.firebasestorage.app",
-  messagingSenderId: "1019755761930",
-  appId: "1:1019755761930:web:08022bb45c5f8f4f34aaf3",
+    "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 
 const app = initializeApp(firebaseConfig);
