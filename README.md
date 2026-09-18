@@ -5,39 +5,39 @@ A smart restaurant booking platform designed to bring restaurant discovery, tabl
 
 ![Smart Eating Booking System Demo](screenshots/homegif.gif)
 
+---
 
 
-
-#Customer Interface
+# Customer Interface
 
 ![Smart Eating Booking System Demo](screenshots/sign.png)
 
 
-### Restaurant Discovery
+## Restaurant Discovery
 
 Restaurant pages provide customers with detailed information including menus, food information, location, opening hours, social media accounts, and available table layouts.
 
 ![Restaurant Pages](screenshots/homee.png)
 
-### Booking System
+## Booking System
 
 Customers can select their preferred date, time, guests, table, and booking preferences while providing additional information such as allergies and special occasions.
 
 ![Booking Page](screenshots/table.png)
 
-### Interactive Table Reservation
+## Interactive Table Reservation
 
 Customers can explore restaurants through interactive floor layouts and view 360 angle of their selected table before making a reservation.
 
 ![Interactive Table Layout](screenshots/360gif.gif)
 
-### Booking Timer
+## Booking Timer
 
 A booking countdown timer helps customers keep track of their active reservation .
 
 ![Booking Timer](screenshots/timer.png)
 
-### Restaurant Events
+## Restaurant Events
 
 Customers can browse upcoming restaurant events, view event details, and make event bookings through the event calendar and add feedback.
 
@@ -52,6 +52,8 @@ The project structure was also developed with future expansion toward a dedicate
 
 ![Premium Analytics](screenshots/moblie.png)
 
+---
+
 # Restaurant owner interface
 
 - Restaurant registration and information
@@ -61,37 +63,42 @@ The project structure was also developed with future expansion toward a dedicate
 - Customer bookings and reservation status
 - Customer preferences and special requests
 - Restaurant activity
-![Restaurant Events](screenshots/ownersign.png)
+
+  
+![Restaurant Events](screenshots/bus.png)
 
 ![Restaurant Events](screenshots/employer.png)
 ![Restaurant Events](screenshots/empres.png)
 
 
-# Restaurant Table Layout Builder
+## Restaurant Table Layout Builder
 
 Restaurant staff can create and manage their restaurant's floor plan using draggable table and layout components.
 
 ![Restaurant Table Layout Builder](screenshots/addgif.gif)
 
-### Premium Analytics
+## Premium Analytics
 
 The system includes a premium analytics area providing additional visual insights into reservations, activity, and platform data.
 
 ![Premium Analytics](screenshots/ana.png)
+
+---
 
 # System Admin Management
 
 The platform includes a dedicated administration area for managing restaurant registrations, approvals, platform activity, accounts, bookings, and system information.
 
 ![Admin Dashboard](screenshots/admin.png)
-![Admin Dashboard](screenshots/active.png)
 
+![Admin Dashboard2](screenshots/active.png)
 
+---
 
 # Key Features
 
 
-##Customer
+## Customer
 - Create an account and sign in using email or Google Sign-In
 - Discover and explore restaurants
 - View restaurant information, menus, locations, opening hours, social media, and table layouts
