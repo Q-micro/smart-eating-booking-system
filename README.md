@@ -91,7 +91,7 @@ The platform includes a dedicated administration area for managing restaurant re
 
 ![Admin Dashboard](screenshots/admin.png)
 
-![Admin Dashboard2](screenshots/active.png)
+![Admin Dashboard2](screenshots/bus3.png)
 
 ---
 
