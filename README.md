@@ -1,16 +1,164 @@
-# React + Vite
+# 🍽️ Smart Eating Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart restaurant booking platform designed to bring restaurant discovery, table reservations, menu information, dietary transparency, and event discovery together in one system.
 
-Currently, two official plugins are available:
+![Smart Eating Booking System Demo](screenshots/homegif.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## System Overview
 
-## React Compiler
+The system is designed around three main user roles:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Customer
+- Create an account and sign in using email or Google Sign-In
+- Discover and explore restaurants
+- View restaurant information, menus, locations, opening hours, social media, and table layouts
+- View food ingredients and allergen information
+- Explore interactive restaurant table layouts
+- Select and reserve tables
+- Provide seating preferences, allergy information, and special occasions
+- Browse and book restaurant events through an event calendar
+- Manage profile information and bookings
+- View booking countdown timers
 
-## Expanding the ESLint configuration
+### Restaurant Owner / Staff
+- Register and manage restaurant information
+- Create and manage interactive restaurant table layouts
+- Manage tables and table availability
+- Manage menus and restaurant events
+- Monitor customer bookings and reservation status
+- View customer booking information, preferences, allergies, and special requests
+- Monitor restaurant activity
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Smart Eating Booking System Admin Management
+- Review newly registered restaurants
+- Review submitted restaurant information and CR details
+- Verify restaurant information before approval
+- Accept or decline restaurant registration requests
+- Monitor registered and active restaurants
+- Manage platform accounts and access
+- Monitor bookings and platform activity
+- Review system statistics and analytics
+- Help maintain the quality and integrity of the platform
+
+## Key Features
+
+### Interactive Table Reservation
+
+Customers can explore restaurants through interactive floor layouts and select available tables before making a reservation.
+
+![Interactive Table Layout](screenshots/360gif.gif)
+
+### Restaurant Discovery
+
+Restaurant pages provide customers with detailed information including menus, food information, location, opening hours, social media accounts, and available table layouts.
+
+![Restaurant Pages](screenshots/homee.png)
+
+### Booking System
+
+Customers can select their preferred date, time, guests, table, and booking preferences while providing additional information such as allergies and special occasions.
+
+![Booking Page](screenshots/table.png)
+
+### Booking Timer
+
+A booking countdown timer helps customers keep track of their active reservation.
+
+![Booking Timer](screenshots/booking-timer.png)
+
+### Restaurant Events
+
+Customers can browse upcoming restaurant events, view event details, and make event bookings through the event calendar.
+
+![Restaurant Events](screenshots/event.png)
+
+### Restaurant Management
+
+Restaurant owners and staff can manage:
+
+- Restaurant registration and information
+- Table availability
+- Interactive floor-plan layouts
+- Menus and events
+- Customer bookings and reservation status
+- Customer preferences and special requests
+- Restaurant activity
+
+### Restaurant Table Layout Builder
+
+Restaurant staff can create and manage their restaurant's floor plan using draggable table and layout components.
+
+![Restaurant Table Layout Builder](screenshots/table-layout-builder.gif)
+
+### Smart Eating Booking System Admin Management
+
+The platform includes a dedicated administration area for managing restaurant registrations, approvals, platform activity, accounts, bookings, and system information.
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Premium Analytics
+
+The system includes a premium analytics area providing additional visual insights into reservations, activity, and platform data.
+
+![Premium Analytics](screenshots/ana.png)
+
+## Responsive Design
+
+The system is built as a responsive web application that adapts to desktop, tablet, and mobile screen sizes.
+
+The project structure was also developed with future expansion toward a dedicated mobile application in mind.
+
+## Technologies Used
+
+### Front-End
+
+- React.js
+- React Router DOM
+- Chakra UI
+- Emotion
+- Framer Motion
+- React Icons
+- Recharts
+- React-based draggable/resizable layout components
+
+### Back-End & Database
+
+- Firebase Authentication
+- Firebase Realtime Database
+
+### Design & Development Tools
+
+- Figma
+- Vite
+- Visual Studio Code
+
+
+## My Contribution
+
+
+This project was developed as my university graduation project.
+I independently worked across the full project lifecycle, from developing the initial concept and planning the system to designing the interface, creating the visual theme and colour palette, developing the front-end and back-end functionality, integrating Firebase services, implementing the different user roles and features, and testing the system.
+
+The project was developed as a full-stack web application, with responsibility for the overall system structure, UI/UX design, implementation, and functionality.
+
+## Project & Repository Notes
+
+This repository is a public portfolio version of my university graduation project.
+
+The project is presented for demonstration and portfolio purposes. Private credentials, sensitive information, and other non-public resources are not included in this repository.
+
+Some features may depend on external services or configuration that are not included in the public version. As a result, certain functionality may not be fully available when running the project locally.
+
+The screenshots and GIF demonstrations in this README showcase the application's implemented features and user interface.
+
+## Running the Project Locally
+
+### Requirements
+
+- Node.js
+- npm
+
+### Installation
+
+```bash
+npm install
