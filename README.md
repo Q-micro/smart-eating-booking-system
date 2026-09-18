@@ -2,53 +2,16 @@
 
 A smart restaurant booking platform designed to bring restaurant discovery, table reservations, menu information, dietary transparency, and event discovery together in one system.
 
-![Smart Eating Booking System Demo](screenshots/sign.png)
 
 ![Smart Eating Booking System Demo](screenshots/homegif.gif)
 
-## System Overview
 
-The system is designed around three main user roles:
 
-### Customer
-- Create an account and sign in using email or Google Sign-In
-- Discover and explore restaurants
-- View restaurant information, menus, locations, opening hours, social media, and table layouts
-- View food ingredients and allergen information
-- Explore interactive restaurant table layouts
-- Select and reserve tables
-- Provide seating preferences, allergy information, and special occasions
-- Browse and book restaurant events through an event calendar
-- Manage profile information and bookings
-- View booking countdown timers
 
-### Restaurant Owner / Staff
-- Register and manage restaurant information
-- Create and manage interactive restaurant table layouts
-- Manage tables and table availability
-- Manage menus and restaurant events
-- Monitor customer bookings and reservation status
-- View customer booking information, preferences, allergies, and special requests
-- Monitor restaurant activity
+#Customer Interface
 
-### Smart Eating Booking System Admin Management
-- Review newly registered restaurants
-- Review submitted restaurant information and CR details
-- Verify restaurant information before approval
-- Accept or decline restaurant registration requests
-- Monitor registered and active restaurants
-- Manage platform accounts and access
-- Monitor bookings and platform activity
-- Review system statistics and analytics
-- Help maintain the quality and integrity of the platform
+![Smart Eating Booking System Demo](screenshots/sign.png)
 
-## Key Features
-
-### Interactive Table Reservation
-
-Customers can explore restaurants through interactive floor layouts and select available tables before making a reservation.
-
-![Interactive Table Layout](screenshots/360gif.gif)
 
 ### Restaurant Discovery
 
@@ -62,24 +25,34 @@ Customers can select their preferred date, time, guests, table, and booking pref
 
 ![Booking Page](screenshots/table.png)
 
+### Interactive Table Reservation
+
+Customers can explore restaurants through interactive floor layouts and view 360 angle of their selected table before making a reservation.
+
+![Interactive Table Layout](screenshots/360gif.gif)
+
 ### Booking Timer
 
-A booking countdown timer helps customers keep track of their active reservation.
+A booking countdown timer helps customers keep track of their active reservation .
 
 ![Booking Timer](screenshots/timer.png)
 
 ### Restaurant Events
 
-Customers can browse upcoming restaurant events, view event details, and make event bookings through the event calendar.
+Customers can browse upcoming restaurant events, view event details, and make event bookings through the event calendar and add feedback.
 
 ![Restaurant Events](screenshots/event.png)
 
-### Restaurant Management
 
-![Restaurant Events](screenshots/employer.png)
+## Responsive Design
 
+The system is built as a responsive web application that adapts to desktop, tablet, and mobile screen sizes.
 
-Restaurant owners and staff can manage:
+The project structure was also developed with future expansion toward a dedicated mobile application in mind.
+
+![Premium Analytics](screenshots/moblie.png)
+
+# Restaurant owner interface
 
 - Restaurant registration and information
 - Table availability
@@ -88,18 +61,17 @@ Restaurant owners and staff can manage:
 - Customer bookings and reservation status
 - Customer preferences and special requests
 - Restaurant activity
+![Restaurant Events](screenshots/ownersign.png)
 
-### Restaurant Table Layout Builder
+![Restaurant Events](screenshots/employer.png)
+![Restaurant Events](screenshots/empres.png)
+
+
+# Restaurant Table Layout Builder
 
 Restaurant staff can create and manage their restaurant's floor plan using draggable table and layout components.
 
 ![Restaurant Table Layout Builder](screenshots/addgif.gif)
-
-### Smart Eating Booking System Admin Management
-
-The platform includes a dedicated administration area for managing restaurant registrations, approvals, platform activity, accounts, bookings, and system information.
-
-![Admin Dashboard](screenshots/admin.png)
 
 ### Premium Analytics
 
@@ -107,16 +79,55 @@ The system includes a premium analytics area providing additional visual insight
 
 ![Premium Analytics](screenshots/ana.png)
 
-## Responsive Design
+# System Admin Management
 
-The system is built as a responsive web application that adapts to desktop, tablet, and mobile screen sizes.
+The platform includes a dedicated administration area for managing restaurant registrations, approvals, platform activity, accounts, bookings, and system information.
 
-The project structure was also developed with future expansion toward a dedicated mobile application in mind.
+![Admin Dashboard](screenshots/admin.png)
+![Admin Dashboard](screenshots/active.png)
 
-![Premium Analytics](screenshots/mobile.png)
 
 
-## Technologies Used
+# Key Features
+
+
+##Customer
+- Create an account and sign in using email or Google Sign-In
+- Discover and explore restaurants
+- View restaurant information, menus, locations, opening hours, social media, and table layouts
+- View food ingredients and allergen information
+- Explore interactive restaurant table layouts
+- Select and reserve tables
+- Provide seating preferences, allergy information, and special occasions
+- Browse and book restaurant events through an event calendar
+- Manage profile information and bookings
+- View booking countdown timers
+
+## Restaurant Owner / Staff
+- Register and manage restaurant information
+- Create and manage interactive restaurant table layouts
+- Manage tables and table availability
+- Manage menus and restaurant events
+- Monitor customer bookings and reservation status
+- View customer booking information, preferences, allergies, and special requests
+- Monitor restaurant activity
+
+##  System Admin Management
+- Review newly registered restaurants
+- Review submitted restaurant information and CR details
+- Verify restaurant information before approval
+- Accept or decline restaurant registration requests
+- Monitor registered and active restaurants
+- Manage platform accounts and access
+- Monitor bookings and platform activity
+- Review system statistics and analytics
+- Help maintain the quality and integrity of the platform
+
+
+
+
+
+# Technologies Used
 
 ### Front-End
 
