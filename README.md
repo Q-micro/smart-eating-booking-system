@@ -2,6 +2,8 @@
 
 A smart restaurant booking platform designed to bring restaurant discovery, table reservations, menu information, dietary transparency, and event discovery together in one system.
 
+![Smart Eating Booking System Demo](screenshots/sign.png)
+
 ![Smart Eating Booking System Demo](screenshots/homegif.gif)
 
 ## System Overview
@@ -64,7 +66,7 @@ Customers can select their preferred date, time, guests, table, and booking pref
 
 A booking countdown timer helps customers keep track of their active reservation.
 
-![Booking Timer](screenshots/booking-timer.png)
+![Booking Timer](screenshots/timer.png)
 
 ### Restaurant Events
 
@@ -73,6 +75,9 @@ Customers can browse upcoming restaurant events, view event details, and make ev
 ![Restaurant Events](screenshots/event.png)
 
 ### Restaurant Management
+
+![Restaurant Events](screenshots/employer.png)
+
 
 Restaurant owners and staff can manage:
 
@@ -88,13 +93,13 @@ Restaurant owners and staff can manage:
 
 Restaurant staff can create and manage their restaurant's floor plan using draggable table and layout components.
 
-![Restaurant Table Layout Builder](screenshots/table-layout-builder.gif)
+![Restaurant Table Layout Builder](screenshots/addgif.gif)
 
 ### Smart Eating Booking System Admin Management
 
 The platform includes a dedicated administration area for managing restaurant registrations, approvals, platform activity, accounts, bookings, and system information.
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](screenshots/admin.png)
 
 ### Premium Analytics
 
@@ -107,6 +112,9 @@ The system includes a premium analytics area providing additional visual insight
 The system is built as a responsive web application that adapts to desktop, tablet, and mobile screen sizes.
 
 The project structure was also developed with future expansion toward a dedicated mobile application in mind.
+
+![Premium Analytics](screenshots/mobile.png)
+
 
 ## Technologies Used
 
